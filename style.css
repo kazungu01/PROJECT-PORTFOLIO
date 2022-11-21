@@ -1,0 +1,171 @@
+html { 
+    background-color: blueviolet;
+  }
+
+  .navigationbar ul {
+    position: fixed;
+    list-style-type: none;
+    margin-top: -180px;
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    width: 90%;
+  }
+  
+  li {
+    float: left;
+    margin-left: 80px;
+  }
+  
+  .navigationbar li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+   
+  }
+  
+  #home {
+    text-align: center;
+    margin-top: 200px;
+  
+  }
+  
+  .heads {
+    font-size: 80px;
+    color: whitesmoke;
+    
+    
+  }
+  
+
+  #img1 {
+    width: 200px;
+    height: 200px;
+    border: ipx solid black;
+    border-radius: 100px;
+    ;
+  }
+  #aboutme {
+    text-align: center;
+    padding-top: 100px;
+    margin-top: -3%;
+  
+  }
+  
+  #aboutme div {
+   margin-left:  5%;
+   
+  }
+  
+  #aboutme div p {
+    border: 1px solid blueviolet;
+    width: 90%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+  #aboutme h1 {
+    font-size: 70px;
+    color: white;
+    margin-top: 10%;
+    border: 7px dashed white;
+    width: 30%;
+    margin-left: 35%;
+  }
+  
+  .imgyz {
+    width: 120px;
+    height: 120px; 
+    border-radius: 20px;
+  }
+  
+  #skillz{
+    text-align: center;
+    margin-top: 20%;
+    
+  
+  }
+  
+  .lidiv{
+  margin-right: 100px;
+  height: 180px;
+  }
+
+  #skillz ul {
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    list-style: none;
+  }
+
+
+  input[type=text], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 40%;
+    background-color: #f3f3f3;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: rgb(192, 9, 192);
+  }
+  
+  input[type=submit]:hover {
+    background-color: blue;
+    color: #f3f3f3;
+    ;
+  }
+  
+  section div {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  #contacts {
+    text-align: center;
+    margin-top: 40%;
+  }
+  
+  textarea {
+    width: 60%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    font-size: 16px;
+    resize: none;
+  }
+
+  #footer div {
+    width: 80%;
+  }
+
+  #footer ul li{
+    text-align: center;
+    list-style: none;
+   
+  }
+  .img2 {
+    height: 40px;
+    margin-left: 300px;
+
+  }
+
+  
